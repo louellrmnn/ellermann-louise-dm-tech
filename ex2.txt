@@ -11,3 +11,4 @@ function GrandEntier(a, b, c) {
     return ge;
     }
 console.log(GrandEntier(76, 4, 17));
+
