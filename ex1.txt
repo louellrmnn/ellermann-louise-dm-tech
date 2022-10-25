@@ -1,0 +1,7 @@
+function reverseString(rev) {
+
+    return rev.split("").reverse().join("");
+    }
+    
+    var inverser = reverseString("LouiseEllermann");
+console.log(inverser);

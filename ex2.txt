@@ -1,0 +1,13 @@
+function GrandEntier(a, b, c) {
+    ge = 0;
+    if (a > b) {
+        ge = a;
+    } else {
+        ge = b;
+    }
+    if (c > ge) {
+        ge = c;
+    }
+    return ge;
+    }
+console.log(GrandEntier(76, 4, 17));
