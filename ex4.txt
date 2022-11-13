@@ -1,0 +1,11 @@
+let debut = 1;
+let fin = 5;
+let ajouter = 0;
+
+while (debut <= fin) {
+
+ajouter += debut;
+
+debut += 1;
+}
+console.log(ajouter);
