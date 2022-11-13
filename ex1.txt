@@ -1,7 +1,12 @@
-function reverseString(rev) {
+function reverse(txte) {
 
-    return rev.split("").reverse().join("");
-    }
-    
-    var inverser = reverseString("LouiseEllermann");
-console.log(inverser);
+var rev = "";
+
+for (var i = txte.length - 1; i >= 0; i--) {
+
+rev += txte[i];
+}
+
+return rev;
+}
+console.log(reverse('LouiseEllermann'));
